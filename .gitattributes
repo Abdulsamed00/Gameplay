@@ -1,0 +1,26 @@
+# Normalize line endings
+* text=auto
+
+# Unity YAML files (text, merge-friendly)
+*.cs text diff=csharp
+*.unity text eol=lf linguist-language=yaml
+*.prefab text eol=lf linguist-language=yaml
+*.asset text eol=lf linguist-language=yaml
+*.mat text eol=lf linguist-language=yaml
+*.anim text eol=lf linguist-language=yaml
+*.controller text eol=lf linguist-language=yaml
+*.meta text eol=lf linguist-language=yaml
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.psd binary
+*.tga binary
+*.fbx binary
+*.blend binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.ttf binary
+*.otf binary
